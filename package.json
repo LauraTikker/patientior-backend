@@ -1,0 +1,28 @@
+{
+  "name": "patientor-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Patientor",
+  "main": "src/index.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node build/src/index.js",
+    "lint": "eslint --ext .ts .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laura Tikker",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/express": "^4.17.9",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "cors": "^2.8.5",
+    "eslint": "^7.14.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.1.2"
+  }
+}
